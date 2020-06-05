@@ -1,6 +1,4 @@
 ﻿//第七周 第二次 实验题
-// 肖云杰 1120182349 07111807
-
 //说明:salary为Employee基础薪资，pay()为计算各个类的月薪，默认的salary为0
 #include<iostream>
 #include<string>

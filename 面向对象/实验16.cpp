@@ -1,4 +1,4 @@
-﻿//第八周实验2	肖云杰	1120182349	07111827
+﻿//第八周实验2
 #include<sstream>
 #include<iostream>
 #include<string>

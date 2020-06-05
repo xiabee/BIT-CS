@@ -1,5 +1,4 @@
 ﻿// 实验10.cpp
-//班级:07111807		学号:1120182349		姓名:肖云杰
 #include <iostream>
 #include<algorithm>
 using namespace std;
