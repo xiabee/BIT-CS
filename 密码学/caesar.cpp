@@ -1,4 +1,4 @@
-// @auther	XiaBee XIAO
+// @auther	XiaBee
 // @date	2020.6.18
 // @version	1.0
 // Caesar encryption and decryption
