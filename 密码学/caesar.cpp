@@ -1,6 +1,7 @@
 // @auther	XiaBee XIAO
 // @date	2020.6.18
 // @version	1.0
+// Caesar encryption and decryption
 
 #include <iostream>
 #include<string>
@@ -37,7 +38,13 @@ int main() {
 
 	cout << "Welcome to Caesar Encryption / Decryption" << endl;
 	cout << "------------------------------------------" << endl;
-	cout << "1.Update Cipher\n2.Update the devation\n3.Print the Encryption\n4.Print the Decrypution\n5.Traverse all results\n6.Clear the screen\n0.Quit" << endl;
+	cout << "1.Update Cipher" << endl;
+	cout << "2.Update the devation" << endl;
+	cout << "3.Print the Encryption" <<endl;
+	cout << "4.Print the Decrypution" << endl;
+	cout << "5.Traverse all results" << endl;
+	cout << "6.Clear the screen" << endl;
+	cout << "0.Quit" << endl;
 	cout << "------------------------------------------" << endl;
 	while (true){
 		cin >> chos;	//选择模式
@@ -79,8 +86,15 @@ int main() {
 		case 6:
 			system("cls");
 			//system("clear");
+			cout << "Welcome to Caesar Encryption / Decryption" << endl;
 			cout << "------------------------------------------" << endl;
-			cout << "1.Update Cipher\n2.Update the devation\n3.Print the Encryption\n4.Print the Decrypution\n5.Traverse all results\n6.Clear the screen\n0.Quit" << endl;
+			cout << "1.Update Cipher" << endl;
+			cout << "2.Update the devation" << endl;
+			cout << "3.Print the Encryption" <<endl;
+			cout << "4.Print the Decrypution" << endl;
+			cout << "5.Traverse all results" << endl;
+			cout << "6.Clear the screen" << endl;
+			cout << "0.Quit" << endl;
 			cout << "------------------------------------------" << endl;
 			break;
 			
