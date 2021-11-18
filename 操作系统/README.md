@@ -2,6 +2,14 @@
 
 ###### 总结时间较短，主要内容仍在补充与修改中
 
+
+
+## PS：OS课设
+
+OS课设小实验暂时未整理，大作业在另一个仓库中：[https://github.com/xiabee/MyShell](https://github.com/xiabee/MyShell)
+
+
+
 #### 考试分值：
 
 * 单选15分
