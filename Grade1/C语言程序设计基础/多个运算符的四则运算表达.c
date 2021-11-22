@@ -1,0 +1,67 @@
+#include<stdio.h> 
+#include<string.h> 
+int main() 
+{
+	static char op[100]; 
+	static int i,j,k,s,p[100]; 
+	scanf("%d",&s); 
+	p[0]=s; 
+	for(i=0;1;i++) 
+	{
+		scanf("%c",&op[i]); 
+		if(op[i]=='\n') break; 
+		scanf("%d",&p[i+1]); 
+	}  
+	for(j=0;j<i;j++) 
+	{
+		if(op[j]=='*'||op[j]=='/') 
+		{
+			if(op[j]=='*') 
+			{
+				p[j]*=p[j+1]; 
+				for(k=j;k<i-1;k++) 
+				{
+					op[k]=op[k+1]; 
+					p[k+1]=p[k+2]; 
+				} 
+			} 
+			else 
+			{
+				p[j]/=p[j+1]; 
+				for(k=j;k<i-1;k++) 
+				{
+					op[k]=op[k+1]; 
+					p[k+1]=p[k+2]; 
+				} 
+			} 
+			i--;j--; 
+		} 
+	}  
+	for(j=0;j<i;j++) 
+	{
+		if(op[j]=='+'||op[j]=='-') 
+		{
+			if(op[j]=='+') 
+			{
+				p[j]+=p[j+1]; 
+				for(k=j;k<i-1;k++) 
+				{
+					op[k]=op[k+1]; 
+					p[k+1]=p[k+2]; 
+				} 
+			} 
+		else 
+		{
+			p[j]-=p[j+1]; 
+			for(k=j;k<i-1;k++)
+			{
+				op[k]=op[k+1]; 
+				p[k+1]=p[k+2]; 
+			} 
+		} 
+		i--;j--; 
+		} 
+	}  
+	printf("%d",p[0]);
+}  
+

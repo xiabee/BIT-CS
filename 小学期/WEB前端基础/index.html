@@ -1,0 +1,67 @@
+<!--希望老师能用chrome浏览器打开-->
+<!--希望老师能用chrome浏览器打开-->
+<!--希望老师能用chrome浏览器打开-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+     <!--导库-->
+     <link type="text/css" rel="stylesheet" href="./XiaBee_files/default.css">
+</head>
+<body class="background">
+
+
+                 <script type="text/javascript">
+                        var curIndex = 0;
+                        //时间间隔(单位毫秒)，每5秒钟显示一张，数组共有3张图片放在img文件夹下
+                        var timeInterval = 1000*5;
+                        
+                                                //定义一个存放照片位置的数组，可以放任意个，在这里放3个
+                        var arr = new Array();
+                        arr[0] = "img/1.jpg";
+                        arr[1] = "img/2.jpg";
+                        arr[3] = "img/4.jpg";
+                        arr[4] = "img/5.jpg";
+                        arr[5] = "img/6.jpg";
+                        arr[6] = "img/7.jpg";
+                        arr[7] = "img/8.jpg";
+                        arr[8] = "img/9.jpg";
+                        arr[9] = "img/10.jpg";
+                        arr[10] = "img/11.jpg";
+                        arr[11] = "img/12.jpg";
+                        arr[12] = "img/13.jpg";
+                        arr[13] = "img/14.jpg";
+                        setInterval(changeImg, timeInterval);
+                        function changeImg() {
+                        if (curIndex == arr.length - 1) {
+                        curIndex = 0;
+                        } else {
+                        curIndex += 1;
+                        }
+                        
+                                                          //设置body的背景图片
+                        document.body.style.backgroundImage = "URL("+arr[curIndex]+")";  //显示对应的图片
+                        }
+                        </script>
+
+
+
+        <div class="center">
+                <h1 class="H1" > WELCOME, MY FRIEND!</h1>
+                <h1 class="hh">------Website Navigation </h1><!--网址导航-->
+        </div>
+        <div class="divcenter">
+                <h1 style="text-align: center">
+                    <br><br><br>
+                    <a href="./html/aboutme.html">ABOUT ME</a>
+                    <br><br><br><br><br>
+                    <a href="./html/onlinetest.asp">ONLINE TEST</a> 
+                    <br><br><br>
+                </h1>  
+        </div>
+   
+</body>
+</html>
