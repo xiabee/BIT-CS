@@ -6,7 +6,8 @@
 
 ## PS：OS课设
 
-OS课设小实验暂时未整理，大作业在另一个仓库中：[https://github.com/xiabee/MyShell](https://github.com/xiabee/MyShell)
+* OS实验：[BIT-OS-Labs](https://github.com/xiabee/BIT-OS-Labs)
+* OS大作业：[MyShell](https://github.com/xiabee/MyShell)
 
 
 
